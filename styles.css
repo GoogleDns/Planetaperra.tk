@@ -1,0 +1,149 @@
+/* Estilos globales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+/* Encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li {
+  margin-right: 20px;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+/* Sección hero */
+.hero {
+  background-image: linear-gradient(to bottom, #333, #555);
+  background-size: 100% 300px;
+  background-position: 0% 100%;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.hero button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.hero button:hover {
+  background-color: #3e8e41;
+}
+/* Sección características */
+.features {
+  margin-top: 40px;
+}
+.features h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.features li {
+  margin-bottom: 10px;
+}
+.features li i {
+  margin-right: 10px;
+  color: #4CAF50;
+}
+/* Sección transferencia */
+.transfer {
+  margin-top: 40px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.transfer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.transfer form {
+  margin-top: 20px;
+}
+.transfer label {
+  display: block;
+  margin-bottom: 10px;
+}
+.transfer input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.transfer button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.transfer button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+/* Pie de página */
+.footer {
+  margin-top: 40px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.footer p {
+  margin-bottom: 10px;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #ccc;
+  }
